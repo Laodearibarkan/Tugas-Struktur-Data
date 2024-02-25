@@ -1,0 +1,38 @@
+package javaapplication42;
+public class JavaApplication42 {
+    public static void main(String[] args) {
+       //Array 1D bertipe data primitif 
+       int[]a = {10,20,30,40,50};
+       
+       //Array 1D bertipe data non primitif
+       String[]b = {"Aco,Upik,Abid,Udin"};
+       
+       //Array 2D bertipe data primitif
+       double[][]c = {
+           {1.5,2.5},
+           {3.5,4.5},
+           {5.5,6.5}};
+       
+       //Mencetak Masing-masing Array
+        System.out.println("Array 1D bertipe data primitif: ");
+        for(int i = 0; i < a.length; i++){
+            System.out.println(a[i] + " ");
+        }
+        System.out.println();
+        
+        System.out.println("Array 1D bertipe data non primitif: ");
+        for (int i = 0; i < b.length; i++) {
+            System.out.println(b[i] + "");
+        }
+        System.out.println();
+        
+        System.out.println("Array 2D bertipe data primitif: ");
+        for (int i = 0; i < c.length; i++) {
+            for (int j = 0; j < c[i].length; j++) {
+                System.out.println(c[i][j] + "");
+            }
+        }
+        System.out.println();
+    }
+    
+}
